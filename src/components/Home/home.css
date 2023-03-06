@@ -1,0 +1,36 @@
+.home{
+    height: 100vh;
+    color: white;
+    background-color: #cd5c5cda;
+    position: relative;
+}
+.home:before{
+    content: "";
+    background: url("../../Image/about.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.home-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.daftar-sekarang-home-button{
+    background-color: #f7d010;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.daftar-sekarang-home-button:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+    cursor: pointer;
+}

@@ -1,13 +1,30 @@
 import React from 'react';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+import Fasilitas from './components/Fasilitas/Fasilitas';
+import Pelajaran from './components/Pelajaran/Pelajaran';
+import Ulasan from './components/Ulasan/Ulasan';
+import Pendaftaran from './components/Pendaftaran/Pendaftaran';
+import ScrollToTop from "react-scroll-to-top";
+import './App.css';
+import Footer from './components/Footer/Footer';
+import Karir from './components/Karir/Karir';
+
+
 
 const App = () => {
   return (
     <>
-      <h1>Ini React Cuy. Ini Branch Navbar Cuy</h1>
-      <h1>2 Cuy</h1>
-      <h1>3 Cuy</h1>
-    </>
-    
+      <Navbar />
+      <Home />
+      <Fasilitas />
+      <Pelajaran />
+      <Ulasan />
+      <Karir />
+      <Pendaftaran />
+      <ScrollToTop smooth />
+      <Footer />
+    </>    
   );
 }
 

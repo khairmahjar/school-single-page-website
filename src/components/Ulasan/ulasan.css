@@ -1,0 +1,68 @@
+.ulasan-section{
+    height: auto;
+}
+.ulasan-card{
+    margin-top: 50px;
+    padding: 10px;
+
+}
+.ulasan-card:hover{
+    background-color: brown;
+    color: white;
+    transition-duration: 1s;
+}
+.ulasan-card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    object-fit: cover;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(241, 205, 21);
+}
+.ulasan-card img:hover{
+    border: 3px solid white;
+}
+.ulasan-nama{
+    font-weight: 20px;
+    font-size: 20px;
+    color: orange;
+}
+.lainnya-button{
+    margin: 10px auto;
+    background-color: #38004c;
+    width: 15%;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.lainnya-button:hover{
+    background-color: #c13bf1;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.ulasan-card-marked{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+
+}
+.ulasan-card-marked:hover{
+    background-color: brown;
+    color: white;
+    transition-duration: 1s;
+}
+.ulasan-card-marked img{
+    width: 80px;
+    height: 80px;
+    border-radius: 90px;
+    object-fit: cover;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    border: 3px solid rgb(241, 205, 21);
+}
+.ulasan-card-marked img:hover{
+    border: 3px solid white;
+}

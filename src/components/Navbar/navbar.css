@@ -1,0 +1,33 @@
+.navbar-main{
+    background-color: #CD5C5C;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    text-align: center;
+    justify-content: center;
+    position: sticky;
+    z-index: 1;
+}
+/* navbar scroll color */
+.navbar-scroll-color{
+    background-color: #a14545;
+}
+.navbar-main ul{
+    display: flex;
+    margin-top: 10px;
+}
+.navbar-main ul li{
+    list-style-type: none;
+    margin-right: 50px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar-main ul li:hover{
+    color: yellow;
+}
+.active-navbar{
+    color: yellow;
+}

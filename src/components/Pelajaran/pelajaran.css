@@ -1,0 +1,28 @@
+.pelajaran-section{
+    height: 600px;
+   
+    
+}
+@media (max-width: 768px) {
+    .pelajaran-section{
+        height: auto;        
+    }
+}
+.materi-item-underline{
+    display: block;
+    width: 100%;
+    height: 0.1px;
+    margin-top: -15px;
+    margin-bottom: 1px;
+    background-color: yellowgreen;
+}
+.daftar-pelajaran{
+    margin-top: 40px;
+    color: black;
+    padding: 10px;
+}
+.nama-pelajaran{
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+}
