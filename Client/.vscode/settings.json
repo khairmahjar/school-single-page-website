@@ -3,5 +3,6 @@
         "activityBar.background": "#4E1F16",
         "titleBar.activeBackground": "#6D2B1E",
         "titleBar.activeForeground": "#FDF9F8"
-    }
+    },
+    "prettier.bracketSameLine": true
 }
